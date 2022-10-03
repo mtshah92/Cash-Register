@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cash Register Manager</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
 
   <body>
@@ -17,10 +17,11 @@
       </p>
 
       <label for="bill-amount">Bill Amount</label>
-      <input type="text" id="bill-amount" />
+      <input class="bill-amount" type="text" />
       <label for="cash-given">Cash Given</label>
-      <input type="text" id="cash-given" />
-      <button>Check</button>
+      <input class="cash-given" type="text" />
+      <button class="button">Check</button>
+      <p class="message"></p>
 
       <table>
         <caption>
@@ -29,7 +30,13 @@
 
         <tr>
           <th>No. of Notes</th>
-          <td></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
         </tr>
 
         <tr>
@@ -45,6 +52,6 @@
       </table>
     </div>
 
-    <script src="mian.js"></script>
+    <script src="./main.js"></script>
   </body>
 </html>
