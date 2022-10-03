@@ -16,41 +16,34 @@
         number of notes to return.
       </p>
 
-      <div class="input">
-        <h2>Bill Amount</h2>
-        <label for="bill-amount"></label>
-        <input type="text" class="bill-amount" />
-        <h2>Cash Given</h2>
-        <label for="cash-given"></label>
-        <input type="text" class="cash-given" />
-      </div>
+      <label for="bill-amount">Bill Amount</label>
+      <input type="text" id="bill-amount" />
+      <label for="cash-given">Cash Given</label>
+      <input type="text" id="cash-given" />
+      <button>Check</button>
 
-      <div class="check">
-        <button>check</button>
-      </div>
+      <table>
+        <caption>
+          Return Change
+        </caption>
+
+        <tr>
+          <th>No. of Notes</th>
+          <td></td>
+        </tr>
+
+        <tr>
+          <th>Notes</th>
+          <td>2000</td>
+          <td>500</td>
+          <td>100</td>
+          <td>20</td>
+          <td>10</td>
+          <td>5</td>
+          <td>1</td>
+        </tr>
+      </table>
     </div>
-
-    <table class="table-change">
-      <caption>
-        Return Change:
-      </caption>
-
-      <tr>
-        <th>No. of Notes</th>
-        <td></td>
-      </tr>
-
-      <tr>
-        <th>Notes</th>
-        <td>2000</td>
-        <td>500</td>
-        <td>100</td>
-        <td>20</td>
-        <td>10</td>
-        <td>5</td>
-        <td>1</td>
-      </tr>
-    </table>
 
     <script src="mian.js"></script>
   </body>
