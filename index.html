@@ -4,7 +4,54 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Cash Register Manager</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+
+  <body>
+    <div class="container">
+      <h1 class="heading">Cash Register Manager</h1>
+      <p class="meta-description">
+        Enter the bill amount and cash given by the customer and know minimum
+        number of notes to return.
+      </p>
+
+      <div class="input">
+        <h2>Bill Amount</h2>
+        <label for="bill-amount"></label>
+        <input type="text" class="bill-amount" />
+        <h2>Cash Given</h2>
+        <label for="cash-given"></label>
+        <input type="text" class="cash-given" />
+      </div>
+
+      <div class="check">
+        <button>check</button>
+      </div>
+    </div>
+
+    <table class="table-change">
+      <caption>
+        Return Change:
+      </caption>
+
+      <tr>
+        <th>No. of Notes</th>
+        <td></td>
+      </tr>
+
+      <tr>
+        <th>Notes</th>
+        <td>2000</td>
+        <td>500</td>
+        <td>100</td>
+        <td>20</td>
+        <td>10</td>
+        <td>5</td>
+        <td>1</td>
+      </tr>
+    </table>
+
+    <script src="mian.js"></script>
+  </body>
 </html>
