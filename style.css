@@ -1,8 +1,28 @@
-* {
-}
-
 .container {
   display: flex;
   flex-direction: column;
   width: 50vw;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 0 0rem;
+}
+
+footer p {
+  font-size: large;
+  text-align: center;
+}
+
+a,
+img,
+li {
+  display: inline;
+  color: #fff;
+}
+
+img {
+  width: 40px;
+  padding: 1rem 0.2rem;
 }
