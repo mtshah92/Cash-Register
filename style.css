@@ -6,15 +6,22 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  background-color: #f1f5f9;
 }
-.container {
-  margin: 4rem auto 7rem;
+
+h1 {
+  text-align: center;
+  color: var(--primary-color);
+}
+main {
+  margin: 2rem 3.5rem;
   text-align: center;
 }
 
-.meta-description {
-  font-size: larger;
+.about {
   margin: 1rem;
+  font-size: large;
+  text-align: center;
 }
 
 .input-label {
@@ -25,13 +32,13 @@
 
 .input {
   font-size: 14px;
-  outline: #fff;
   padding: 0.6rem 1rem;
   margin: 1rem;
   border: 2px solid var(--primary-color);
   border-radius: 0.5rem;
   width: 100%;
-  max-width: 258px;
+  max-width: 300px;
+  background-color: white;
 }
 
 button {
@@ -47,45 +54,52 @@ button {
   display: block;
 }
 
-.change-table {
+.output {
+  display: block;
+  margin: 1rem;
+  font-size: x-large;
+}
+
+table {
+  white-space: nowrap;
+}
+
+.table {
   width: 50%;
   text-align: justify;
   border-collapse: collapse;
   margin: auto;
 }
 
-.change-table caption {
+.table caption {
   margin: 1rem auto;
-  font-size: x-large;
+  font-size: large;
   font-weight: 500;
 }
 
 th,
 td {
   border: 2px solid var(--primary-color);
-  width: 0%;
-  border-collapse: collapse;
-  padding: 0.4rem;
+  padding: 1rem;
 }
 
-footer {
+.footer-about {
   text-align: center;
-  padding-bottom: 0 0rem;
+  padding-bottom: 0.5rem;
 }
 
-footer p {
-  font-size: large;
-  text-align: center;
+ul {
+  display: flex;
+  justify-content: center;
 }
 
-a,
-img,
-li {
+.footer-links li {
   display: inline;
-  color: #fff;
 }
 
-img {
-  width: 40px;
-  padding: 1rem 0.2rem;
+.links {
+  padding: 0.5rem;
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: bold;
 }
