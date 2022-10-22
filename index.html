@@ -9,23 +9,26 @@
   </head>
 
   <body>
-    <div class="container">
-      <h1 class="heading">Cash Register Manager</h1>
-      <p class="meta-description">
+    <header>
+      <h1>Cash Register Manager</h1>
+      <p class="about">
         Enter the bill amount and cash given by the customer and know minimum
         number of notes to return.
       </p>
+    </header>
 
+    <main>
       <label for="bill-amount" class="input-label">Bill Amount</label>
-      <input class="bill-amount input" type="text" />
+      <input class="bill-amount input" type="number" />
       <label for="cash-given" class="input-label">Cash Given</label>
-      <input class="cash-given input" type="text" />
-      <button class="button">Check</button>
-      <p class="message"></p>
+      <input class="cash-given input" type="number" />
 
-      <table class="change-table">
+      <button class="button">Check</button>
+      <div><span class="output"></span></div>
+
+      <table class="table">
         <caption>
-          Return Change
+          <h3>Return Change</h3>
         </caption>
 
         <tr>
@@ -50,14 +53,15 @@
           <td>1</td>
         </tr>
       </table>
-    </div>
+    </main>
 
     <footer>
-      <p>© | 2022 | meetshah</p>
-      <ul class="list-unordered inline-list">
+      <p class="footer-about">Social Presence</p>
+
+      <ul class="footer-links">
         <li>
           <a class="links" href="https://github.com/mshah1098" target="_blank">
-            <img src="../images/github.svg" alt="github" />
+            Github
           </a>
         </li>
         <li>
@@ -66,15 +70,23 @@
             href="https://www.instagram.com/meet.shah_1098/"
             target="_blank"
           >
-            <img src="../images/instagram.svg" alt="instagram" />
+            Instagram
           </a>
         </li>
         <li>
           <a class="links" href="https://twitter.com/mtshah92" target="_blank">
-            <img src="../images/twitter.svg" alt="twitter" />
+            Twitter
           </a>
         </li>
-        <li></li>
+        <li>
+          <a
+            class="links"
+            href="https://www.linkedin.com/in/meet-shah-36623052/"
+            target="_blank"
+          >
+            Linkedin
+          </a>
+        </li>
       </ul>
     </footer>
 
