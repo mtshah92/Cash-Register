@@ -14,6 +14,9 @@ button.addEventListener("click", function validateAmounts() {
       if (parseInt(cashGiven.value) >= parseInt(billAmount.value)) {
         const amountToBeReturned = cashGiven.value - billAmount.value;
         calculateChange(amountToBeReturned);
+      }
+      if (parseInt(cashGiven.value) === parseInt(billAmount.value)) {
+        showMessage("Thanks for exact amount");
       } else {
         showMessage("Do u wanna to wash the Plates?");
       }
